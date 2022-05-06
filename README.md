@@ -7,7 +7,7 @@ Pasos para desplegar aplicación
 6. copiar el archivo .env.example a .env
 7. configurar base de datos en el archivo .env
 8. ejecutar php artisan key:generate
-9. php artisan migrate
+9. php artisan migrate (o importar archivo catalogo.sql de la carpeta database)
 10. php artisan db:seed
 11. crear enlace para acceso a adjuntos php artisan link:storage
 12. El usuario por defecto es admin@admin.com con contraseña admin
